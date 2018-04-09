@@ -58,6 +58,9 @@ platform :rbx do
   gem 'rubysl-test-unit', :require => false
 end
 
+# Use Twitter Bootstrap library for front-end UI and layout
+gem 'bootstrap-sass', '3.3.7'
+
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
