@@ -57,6 +57,8 @@ GEM
     execjs (2.2.2)
     ey_config (0.0.7)
     ffi2-generators (0.1.1)
+    font-awesome-sass (4.6.2)
+      sass (>= 3.2)
     globalid (0.3.0)
       activesupport (>= 4.1.0)
     hike (1.2.3)
@@ -374,6 +376,7 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.7)
   coffee-rails
   ey_config
+  font-awesome-sass (= 4.6.2)
   jdbc-mysql
   jdbc-postgres
   jdbc-sqlite3
