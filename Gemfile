@@ -64,6 +64,8 @@ gem 'bootstrap-sass', '3.3.7'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
+# Use Hirb gem for better console data presentation
+gem 'hirb', '0.7.3'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
