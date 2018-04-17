@@ -32,7 +32,7 @@ end
 
 platform :ruby, :mswin, :mingw, :x64_mingw do
   gem 'pg'
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.13'
 end
 
 platform :mswin, :mingw, :x64_mingw do
@@ -66,6 +66,10 @@ gem 'font-awesome-sass', '4.6.2'
 
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
+
+# Use Devise for user authentication
+gem 'devise', '4.2.0'
+
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
