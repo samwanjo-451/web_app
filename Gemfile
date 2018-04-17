@@ -72,6 +72,12 @@ gem 'devise', '4.2.0'
 
 gem 'bcrypt', '~> 3.1.7'
 
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+
+# Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
