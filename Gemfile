@@ -82,5 +82,9 @@ gem 'figaro', '1.1.1'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
+gem 'sqlite3', '~> 1.3.13'
+end
 
+group :production do
+  gem 'pg'
 end
