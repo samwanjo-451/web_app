@@ -5,7 +5,7 @@ end
 
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.2.0'
+gem 'rails', '~> 4.2.10'
 
 gem 'ey_config'
 gem 'rails_autolink'
@@ -31,8 +31,8 @@ platform :ruby do
 end
 
 platform :ruby, :mswin, :mingw, :x64_mingw do
-  gem 'pg'
-  gem 'sqlite3', '~> 1.3.13'
+
+  
 end
 
 platform :mswin, :mingw, :x64_mingw do
@@ -82,7 +82,7 @@ gem 'figaro', '1.1.1'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-gem 'sqlite3', '~> 1.3.13'
+gem 'sqlite3'
 end
 
 group :production do
